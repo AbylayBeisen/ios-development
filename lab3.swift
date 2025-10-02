@@ -42,7 +42,7 @@ struct Product {
 //1.2
 struct CartItem {
     let product: Product
-    private(set) var quantity: Int
+    var quantity: Int
     
     var subtotal: Double {
         return product.price * Double(quantity)
@@ -245,7 +245,6 @@ func runTests(){
         print("    Cart items count: \(cart.itemCount) (should be 0)")
         print("    Order preserved original items (immutable snapshot)")
         
-        print("\n=== All tests completed successfully! ===")
     }
     
 runTests()
