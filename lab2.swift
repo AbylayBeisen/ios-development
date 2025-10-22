@@ -1,6 +1,10 @@
 //
 //  lab2.swift
+<<<<<<< HEAD
 //  
+=======
+//
+>>>>>>> 319e873 (initial commit)
 //
 //  Created by Abylai  on 25.09.2025.
 //
