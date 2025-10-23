@@ -9,6 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+
+    @IBOutlet weak var thirdDice: UIImageView!
+
     @IBOutlet weak var lhsDice: UIImageView!
     @IBOutlet weak var rolButton: UIButton!
     @IBOutlet weak var rhsDice: UIImageView!
@@ -21,11 +25,13 @@ class ViewController: UIViewController {
 
             lhsDice.image = diceArray[0]
             rhsDice.image = diceArray[0]
+            thirdDice.image = diceArray[0]
             }
         
     @IBAction func rolButton(_ sender: UIButton) {
         lhsDice.image = diceArray.randomElement()
         rhsDice.image = diceArray.randomElement()
+        thirdDice.image = diceArray.randomElement()
     }
     
 }

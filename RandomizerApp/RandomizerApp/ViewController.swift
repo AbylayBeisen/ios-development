@@ -18,24 +18,28 @@ class ViewController: UIViewController {
     @IBOutlet weak var ArtistName: UILabel!
     @IBOutlet weak var ArtistPhoto: UIImageView!
     @IBOutlet weak var ShuffleButton: UIButton!
-
+    @IBOutlet weak var detailArrowButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
         showRandomArtist()
         
     }
-    private let ArtistsArray: [(image: UIImage, name: String, color: UIColor)] = [
-            (#imageLiteral(resourceName: "TheWeeknd"), "The Weeknd", .systemRed),
-            (#imageLiteral(resourceName: "Asap Rocky"), "Asap Rocky", .black),
-            (#imageLiteral(resourceName: "Kendrick Lamar"), "Kendrick Lamar", .black),
-            (#imageLiteral(resourceName: "Eminem"), "Eminem", .systemYellow),
-            (#imageLiteral(resourceName: "Billie Eilish"), "Billie Eilish", .systemBlue),
-            (#imageLiteral(resourceName: "Joji"), "Joji", .systemRed),
-            (#imageLiteral(resourceName: "SZA"), "SZA", .systemTeal),
-            (#imageLiteral(resourceName: "Travis Scott"), "Travis Scott", .systemIndigo),
-            (#imageLiteral(resourceName: "MacMiller"), "Mac Miller", .systemBrown),
-            (#imageLiteral(resourceName: "Frank Ocean"), "Frank Ocean", .systemMint)
+    
+    private var currentArtist: (image: UIImage, blurredImage: UIImage, name: String, color: UIColor)?
+    
+    private let ArtistsArray: [(image: UIImage,blurredImage: UIImage, name: String, color: UIColor)] = [
+            (#imageLiteral(resourceName: "TheWeeknd"),#imageLiteral(resourceName: "TheWeekndBlurred") ,"The Weeknd", .systemRed),
+            (#imageLiteral(resourceName: "Asap Rocky"),#imageLiteral(resourceName: "Asap RockyBlurred") ,"Asap Rocky", .black),
+            (#imageLiteral(resourceName: "Kendrick Lamar"),#imageLiteral(resourceName: "Kendrick LamarBlurred") ,"Kendrick Lamar", .black),
+            (#imageLiteral(resourceName: "Eminem"),#imageLiteral(resourceName: "EminemBlurred") ,"Eminem", .systemYellow),
+            (#imageLiteral(resourceName: "Billie Eilish"),#imageLiteral(resourceName: "Billie EilishBlurred") ,"Billie Eilish", .systemBlue),
+            (#imageLiteral(resourceName: "Joji"),#imageLiteral(resourceName: "JojiBlurred"), "Joji", .systemRed),
+            (#imageLiteral(resourceName: "SZA"),#imageLiteral(resourceName: "SZABlurred") ,"SZA", .systemTeal),
+            (#imageLiteral(resourceName: "Travis Scott"),#imageLiteral(resourceName: "Travis ScottBlurred") ,"Travis Scott", .systemIndigo),
+            (#imageLiteral(resourceName: "MacMiller"),#imageLiteral(resourceName: "MacMillerBlurred") ,"Mac Miller", .systemBrown),
+            (#imageLiteral(resourceName: "Frank Ocean"),#imageLiteral(resourceName: "Frank OceanBlurred") ,"Frank Ocean", .systemMint)
         ]
 
     
@@ -63,6 +67,20 @@ class ViewController: UIViewController {
             ShuffleButton.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -40),
             ShuffleButton.heightAnchor.constraint(equalToConstant: 50)
                 ])
+            detailArrowButton.translatesAutoresizingMaskIntoConstraints = false
+                NSLayoutConstraint.activate([
+            detailArrowButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
+            detailArrowButton.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -20),
+            detailArrowButton.widthAnchor.constraint(equalToConstant: 50),
+            detailArrowButton.heightAnchor.constraint(equalToConstant: 50)
+                ])
+            detailArrowButton.setTitle("→", for: .normal)
+            detailArrowButton.setTitleColor(.white, for: .normal)
+            detailArrowButton.titleLabel?.font = .systemFont(ofSize: 30, weight: .bold)
+            detailArrowButton.backgroundColor = UIColor.black.withAlphaComponent(0.5)
+            detailArrowButton.layer.cornerRadius = 25
+            detailArrowButton.layer.borderWidth = 1
+            detailArrowButton.layer.borderColor = UIColor.white.withAlphaComponent(0.3).cgColor
         
             ArtistName.layer.shadowColor = UIColor.black.cgColor
             ArtistName.layer.shadowRadius = 3
@@ -80,8 +98,16 @@ class ViewController: UIViewController {
                }
                showRandomArtist()
     }
+    
+    
+    
+    @IBAction func detailArrowButtonTapped(_ sender: Any) {
+        showArtistDetail()
+    }
+    
     private func showRandomArtist() {
             let randomArtist = ArtistsArray.randomElement()!
+            currentArtist = randomArtist
             
             UIView.transition(with: ArtistPhoto,
                             duration: 0.5,
@@ -95,6 +121,23 @@ class ViewController: UIViewController {
             ArtistName.text = randomArtist.name
             ArtistName.textColor = randomArtist.color
         }
+    
+    private func showArtistDetail() {
+           guard let currentArtist = currentArtist else { return }
+           
+           let detailVC = DetailViewController()
+           detailVC.artist = currentArtist
+           detailVC.modalPresentationStyle = .fullScreen
+           
+           
+           let transition = CATransition()
+           transition.duration = 0.5
+           transition.type = .push
+           transition.subtype = .fromRight
+           view.window?.layer.add(transition, forKey: kCATransition)
+           
+           present(detailVC, animated: false)
+       }
     
 }
 
