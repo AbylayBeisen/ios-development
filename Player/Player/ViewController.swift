@@ -168,7 +168,7 @@ class ViewController: UIViewController {
         let progress = Float(player.currentTime / player.duration)
         progressSlider.value = progress.isNaN ? 0 : progress
         updateTimeLabels()
-        }
+    }
     func updateTimeLabels() {
         guard let player = player
         else {
