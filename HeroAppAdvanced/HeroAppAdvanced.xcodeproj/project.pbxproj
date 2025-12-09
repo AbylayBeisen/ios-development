@@ -7,80 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D59DEF2C2EE873800039657D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D59DEF2B2EE873800039657D /* Kingfisher */; };
+		D53388AF2EE88F44004EE1A1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D53388AE2EE88F44004EE1A1 /* Alamofire */; };
+		D53388B22EE88F7E004EE1A1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D53388B12EE88F7E004EE1A1 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D583EABC2EE18D99009F03D8 /* PBXContainerItemProxy */ = {
+		D5BE39732EE87FD0009BF190 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D583EA9D2EE18D98009F03D8 /* Project object */;
+			containerPortal = D5BE39542EE87FCF009BF190 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D583EAA42EE18D98009F03D8;
-			remoteInfo = HeroRandomizer;
+			remoteGlobalIDString = D5BE395B2EE87FCF009BF190;
+			remoteInfo = HeroAppAdvanced;
 		};
-		D583EAC62EE18D99009F03D8 /* PBXContainerItemProxy */ = {
+		D5BE397D2EE87FD0009BF190 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D583EA9D2EE18D98009F03D8 /* Project object */;
+			containerPortal = D5BE39542EE87FCF009BF190 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D583EAA42EE18D98009F03D8;
-			remoteInfo = HeroRandomizer;
+			remoteGlobalIDString = D5BE395B2EE87FCF009BF190;
+			remoteInfo = HeroAppAdvanced;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D53388862EE88C4A004EE1A1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		D583EAA52EE18D98009F03D8 /* HeroRandomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroRandomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D583EABB2EE18D99009F03D8 /* HeroRandomizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroRandomizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D583EAC52EE18D99009F03D8 /* HeroRandomizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroRandomizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5BE395C2EE87FCF009BF190 /* HeroAppAdvanced.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroAppAdvanced.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5BE39722EE87FD0009BF190 /* HeroAppAdvancedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroAppAdvancedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5BE397C2EE87FD0009BF190 /* HeroAppAdvancedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroAppAdvancedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D583EACD2EE18D99009F03D8 /* Exceptions for "HeroRandomizer" folder in "HeroRandomizer" target */ = {
+		D5BE39842EE87FD0009BF190 /* Exceptions for "HeroAppAdvanced" folder in "HeroAppAdvanced" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = D583EAA42EE18D98009F03D8 /* HeroRandomizer */;
+			target = D5BE395B2EE87FCF009BF190 /* HeroAppAdvanced */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D583EAA72EE18D98009F03D8 /* HeroRandomizer */ = {
+		D5BE395E2EE87FCF009BF190 /* HeroAppAdvanced */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				D583EACD2EE18D99009F03D8 /* Exceptions for "HeroRandomizer" folder in "HeroRandomizer" target */,
+				D5BE39842EE87FD0009BF190 /* Exceptions for "HeroAppAdvanced" folder in "HeroAppAdvanced" target */,
 			);
-			path = HeroRandomizer;
+			path = HeroAppAdvanced;
 			sourceTree = "<group>";
 		};
-		D583EABE2EE18D99009F03D8 /* HeroRandomizerTests */ = {
+		D5BE39752EE87FD0009BF190 /* HeroAppAdvancedTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HeroRandomizerTests;
+			path = HeroAppAdvancedTests;
 			sourceTree = "<group>";
 		};
-		D583EAC82EE18D99009F03D8 /* HeroRandomizerUITests */ = {
+		D5BE397F2EE87FD0009BF190 /* HeroAppAdvancedUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HeroRandomizerUITests;
+			path = HeroAppAdvancedUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D583EAA22EE18D98009F03D8 /* Frameworks */ = {
+		D5BE39592EE87FCF009BF190 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D59DEF2C2EE873800039657D /* Kingfisher in Frameworks */,
+				D53388B22EE88F7E004EE1A1 /* Kingfisher in Frameworks */,
+				D53388AF2EE88F44004EE1A1 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D583EAB82EE18D99009F03D8 /* Frameworks */ = {
+		D5BE396F2EE87FD0009BF190 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D583EAC22EE18D99009F03D8 /* Frameworks */ = {
+		D5BE39792EE87FD0009BF190 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,22 +105,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D583EA9C2EE18D98009F03D8 = {
+		D53388872EE88C54004EE1A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D583EAA72EE18D98009F03D8 /* HeroRandomizer */,
-				D583EABE2EE18D99009F03D8 /* HeroRandomizerTests */,
-				D583EAC82EE18D99009F03D8 /* HeroRandomizerUITests */,
-				D583EAA62EE18D98009F03D8 /* Products */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5BE39532EE87FCF009BF190 = {
+			isa = PBXGroup;
+			children = (
+				D5BE395E2EE87FCF009BF190 /* HeroAppAdvanced */,
+				D5BE39752EE87FD0009BF190 /* HeroAppAdvancedTests */,
+				D5BE397F2EE87FD0009BF190 /* HeroAppAdvancedUITests */,
+				D53388872EE88C54004EE1A1 /* Frameworks */,
+				D5BE395D2EE87FCF009BF190 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D583EAA62EE18D98009F03D8 /* Products */ = {
+		D5BE395D2EE87FCF009BF190 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D583EAA52EE18D98009F03D8 /* HeroRandomizer.app */,
-				D583EABB2EE18D99009F03D8 /* HeroRandomizerTests.xctest */,
-				D583EAC52EE18D99009F03D8 /* HeroRandomizerUITests.xctest */,
+				D5BE395C2EE87FCF009BF190 /* HeroAppAdvanced.app */,
+				D5BE39722EE87FD0009BF190 /* HeroAppAdvancedTests.xctest */,
+				D5BE397C2EE87FD0009BF190 /* HeroAppAdvancedUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,138 +136,141 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D583EAA42EE18D98009F03D8 /* HeroRandomizer */ = {
+		D5BE395B2EE87FCF009BF190 /* HeroAppAdvanced */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D583EACE2EE18D99009F03D8 /* Build configuration list for PBXNativeTarget "HeroRandomizer" */;
+			buildConfigurationList = D5BE39852EE87FD0009BF190 /* Build configuration list for PBXNativeTarget "HeroAppAdvanced" */;
 			buildPhases = (
-				D583EAA12EE18D98009F03D8 /* Sources */,
-				D583EAA22EE18D98009F03D8 /* Frameworks */,
-				D583EAA32EE18D98009F03D8 /* Resources */,
+				D5BE39582EE87FCF009BF190 /* Sources */,
+				D5BE39592EE87FCF009BF190 /* Frameworks */,
+				D5BE395A2EE87FCF009BF190 /* Resources */,
+				D53388862EE88C4A004EE1A1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				D583EAA72EE18D98009F03D8 /* HeroRandomizer */,
+				D5BE395E2EE87FCF009BF190 /* HeroAppAdvanced */,
 			);
-			name = HeroRandomizer;
+			name = HeroAppAdvanced;
 			packageProductDependencies = (
-				D59DEF2B2EE873800039657D /* Kingfisher */,
+				D53388AE2EE88F44004EE1A1 /* Alamofire */,
+				D53388B12EE88F7E004EE1A1 /* Kingfisher */,
 			);
-			productName = HeroRandomizer;
-			productReference = D583EAA52EE18D98009F03D8 /* HeroRandomizer.app */;
+			productName = HeroAppAdvanced;
+			productReference = D5BE395C2EE87FCF009BF190 /* HeroAppAdvanced.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D583EABA2EE18D99009F03D8 /* HeroRandomizerTests */ = {
+		D5BE39712EE87FD0009BF190 /* HeroAppAdvancedTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D583EAD32EE18D99009F03D8 /* Build configuration list for PBXNativeTarget "HeroRandomizerTests" */;
+			buildConfigurationList = D5BE398A2EE87FD0009BF190 /* Build configuration list for PBXNativeTarget "HeroAppAdvancedTests" */;
 			buildPhases = (
-				D583EAB72EE18D99009F03D8 /* Sources */,
-				D583EAB82EE18D99009F03D8 /* Frameworks */,
-				D583EAB92EE18D99009F03D8 /* Resources */,
+				D5BE396E2EE87FD0009BF190 /* Sources */,
+				D5BE396F2EE87FD0009BF190 /* Frameworks */,
+				D5BE39702EE87FD0009BF190 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D583EABD2EE18D99009F03D8 /* PBXTargetDependency */,
+				D5BE39742EE87FD0009BF190 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				D583EABE2EE18D99009F03D8 /* HeroRandomizerTests */,
+				D5BE39752EE87FD0009BF190 /* HeroAppAdvancedTests */,
 			);
-			name = HeroRandomizerTests;
+			name = HeroAppAdvancedTests;
 			packageProductDependencies = (
 			);
-			productName = HeroRandomizerTests;
-			productReference = D583EABB2EE18D99009F03D8 /* HeroRandomizerTests.xctest */;
+			productName = HeroAppAdvancedTests;
+			productReference = D5BE39722EE87FD0009BF190 /* HeroAppAdvancedTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D583EAC42EE18D99009F03D8 /* HeroRandomizerUITests */ = {
+		D5BE397B2EE87FD0009BF190 /* HeroAppAdvancedUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D583EAD62EE18D99009F03D8 /* Build configuration list for PBXNativeTarget "HeroRandomizerUITests" */;
+			buildConfigurationList = D5BE398D2EE87FD0009BF190 /* Build configuration list for PBXNativeTarget "HeroAppAdvancedUITests" */;
 			buildPhases = (
-				D583EAC12EE18D99009F03D8 /* Sources */,
-				D583EAC22EE18D99009F03D8 /* Frameworks */,
-				D583EAC32EE18D99009F03D8 /* Resources */,
+				D5BE39782EE87FD0009BF190 /* Sources */,
+				D5BE39792EE87FD0009BF190 /* Frameworks */,
+				D5BE397A2EE87FD0009BF190 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D583EAC72EE18D99009F03D8 /* PBXTargetDependency */,
+				D5BE397E2EE87FD0009BF190 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				D583EAC82EE18D99009F03D8 /* HeroRandomizerUITests */,
+				D5BE397F2EE87FD0009BF190 /* HeroAppAdvancedUITests */,
 			);
-			name = HeroRandomizerUITests;
+			name = HeroAppAdvancedUITests;
 			packageProductDependencies = (
 			);
-			productName = HeroRandomizerUITests;
-			productReference = D583EAC52EE18D99009F03D8 /* HeroRandomizerUITests.xctest */;
+			productName = HeroAppAdvancedUITests;
+			productReference = D5BE397C2EE87FD0009BF190 /* HeroAppAdvancedUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D583EA9D2EE18D98009F03D8 /* Project object */ = {
+		D5BE39542EE87FCF009BF190 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					D583EAA42EE18D98009F03D8 = {
+					D5BE395B2EE87FCF009BF190 = {
 						CreatedOnToolsVersion = 26.0;
 					};
-					D583EABA2EE18D99009F03D8 = {
+					D5BE39712EE87FD0009BF190 = {
 						CreatedOnToolsVersion = 26.0;
-						TestTargetID = D583EAA42EE18D98009F03D8;
+						TestTargetID = D5BE395B2EE87FCF009BF190;
 					};
-					D583EAC42EE18D99009F03D8 = {
+					D5BE397B2EE87FD0009BF190 = {
 						CreatedOnToolsVersion = 26.0;
-						TestTargetID = D583EAA42EE18D98009F03D8;
+						TestTargetID = D5BE395B2EE87FCF009BF190;
 					};
 				};
 			};
-			buildConfigurationList = D583EAA02EE18D98009F03D8 /* Build configuration list for PBXProject "HeroRandomizer" */;
+			buildConfigurationList = D5BE39572EE87FCF009BF190 /* Build configuration list for PBXProject "HeroAppAdvanced" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = D583EA9C2EE18D98009F03D8;
+			mainGroup = D5BE39532EE87FCF009BF190;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				D59DEF142EE873420039657D /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				D53388AD2EE88F44004EE1A1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				D53388B02EE88F7E004EE1A1 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = D583EAA62EE18D98009F03D8 /* Products */;
+			productRefGroup = D5BE395D2EE87FCF009BF190 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D583EAA42EE18D98009F03D8 /* HeroRandomizer */,
-				D583EABA2EE18D99009F03D8 /* HeroRandomizerTests */,
-				D583EAC42EE18D99009F03D8 /* HeroRandomizerUITests */,
+				D5BE395B2EE87FCF009BF190 /* HeroAppAdvanced */,
+				D5BE39712EE87FD0009BF190 /* HeroAppAdvancedTests */,
+				D5BE397B2EE87FD0009BF190 /* HeroAppAdvancedUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D583EAA32EE18D98009F03D8 /* Resources */ = {
+		D5BE395A2EE87FCF009BF190 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D583EAB92EE18D99009F03D8 /* Resources */ = {
+		D5BE39702EE87FD0009BF190 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D583EAC32EE18D99009F03D8 /* Resources */ = {
+		D5BE397A2EE87FD0009BF190 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,21 +280,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D583EAA12EE18D98009F03D8 /* Sources */ = {
+		D5BE39582EE87FCF009BF190 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D583EAB72EE18D99009F03D8 /* Sources */ = {
+		D5BE396E2EE87FD0009BF190 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D583EAC12EE18D99009F03D8 /* Sources */ = {
+		D5BE39782EE87FD0009BF190 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,20 +304,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D583EABD2EE18D99009F03D8 /* PBXTargetDependency */ = {
+		D5BE39742EE87FD0009BF190 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D583EAA42EE18D98009F03D8 /* HeroRandomizer */;
-			targetProxy = D583EABC2EE18D99009F03D8 /* PBXContainerItemProxy */;
+			target = D5BE395B2EE87FCF009BF190 /* HeroAppAdvanced */;
+			targetProxy = D5BE39732EE87FD0009BF190 /* PBXContainerItemProxy */;
 		};
-		D583EAC72EE18D99009F03D8 /* PBXTargetDependency */ = {
+		D5BE397E2EE87FD0009BF190 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D583EAA42EE18D98009F03D8 /* HeroRandomizer */;
-			targetProxy = D583EAC62EE18D99009F03D8 /* PBXContainerItemProxy */;
+			target = D5BE395B2EE87FCF009BF190 /* HeroAppAdvanced */;
+			targetProxy = D5BE397D2EE87FD0009BF190 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		D583EACF2EE18D99009F03D8 /* Debug */ = {
+		D5BE39862EE87FD0009BF190 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -299,7 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HeroRandomizer/Info.plist;
+				INFOPLIST_FILE = HeroAppAdvanced/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -310,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Besisen.Abylai.HeroRandomizer;
+				PRODUCT_BUNDLE_IDENTIFIER = Besisen.Abylai.HeroAppAdvanced;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -322,7 +348,7 @@
 			};
 			name = Debug;
 		};
-		D583EAD02EE18D99009F03D8 /* Release */ = {
+		D5BE39872EE87FD0009BF190 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -330,7 +356,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HeroRandomizer/Info.plist;
+				INFOPLIST_FILE = HeroAppAdvanced/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -341,7 +367,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Besisen.Abylai.HeroRandomizer;
+				PRODUCT_BUNDLE_IDENTIFIER = Besisen.Abylai.HeroAppAdvanced;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -353,7 +379,7 @@
 			};
 			name = Release;
 		};
-		D583EAD12EE18D99009F03D8 /* Debug */ = {
+		D5BE39882EE87FD0009BF190 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -416,7 +442,7 @@
 			};
 			name = Debug;
 		};
-		D583EAD22EE18D99009F03D8 /* Release */ = {
+		D5BE39892EE87FD0009BF190 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -472,7 +498,7 @@
 			};
 			name = Release;
 		};
-		D583EAD42EE18D99009F03D8 /* Debug */ = {
+		D5BE398B2EE87FD0009BF190 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -481,7 +507,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Besisen.Abylai.HeroRandomizerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Besisen.Abylai.HeroAppAdvancedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -489,11 +515,11 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroRandomizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeroRandomizer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroAppAdvanced.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeroAppAdvanced";
 			};
 			name = Debug;
 		};
-		D583EAD52EE18D99009F03D8 /* Release */ = {
+		D5BE398C2EE87FD0009BF190 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,7 +528,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Besisen.Abylai.HeroRandomizerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Besisen.Abylai.HeroAppAdvancedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -510,18 +536,18 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroRandomizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeroRandomizer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroAppAdvanced.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeroAppAdvanced";
 			};
 			name = Release;
 		};
-		D583EAD72EE18D99009F03D8 /* Debug */ = {
+		D5BE398E2EE87FD0009BF190 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Besisen.Abylai.HeroRandomizerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Besisen.Abylai.HeroAppAdvancedUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -529,18 +555,18 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = HeroRandomizer;
+				TEST_TARGET_NAME = HeroAppAdvanced;
 			};
 			name = Debug;
 		};
-		D583EAD82EE18D99009F03D8 /* Release */ = {
+		D5BE398F2EE87FD0009BF190 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Besisen.Abylai.HeroRandomizerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Besisen.Abylai.HeroAppAdvancedUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -548,45 +574,45 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = HeroRandomizer;
+				TEST_TARGET_NAME = HeroAppAdvanced;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D583EAA02EE18D98009F03D8 /* Build configuration list for PBXProject "HeroRandomizer" */ = {
+		D5BE39572EE87FCF009BF190 /* Build configuration list for PBXProject "HeroAppAdvanced" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D583EAD12EE18D99009F03D8 /* Debug */,
-				D583EAD22EE18D99009F03D8 /* Release */,
+				D5BE39882EE87FD0009BF190 /* Debug */,
+				D5BE39892EE87FD0009BF190 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D583EACE2EE18D99009F03D8 /* Build configuration list for PBXNativeTarget "HeroRandomizer" */ = {
+		D5BE39852EE87FD0009BF190 /* Build configuration list for PBXNativeTarget "HeroAppAdvanced" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D583EACF2EE18D99009F03D8 /* Debug */,
-				D583EAD02EE18D99009F03D8 /* Release */,
+				D5BE39862EE87FD0009BF190 /* Debug */,
+				D5BE39872EE87FD0009BF190 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D583EAD32EE18D99009F03D8 /* Build configuration list for PBXNativeTarget "HeroRandomizerTests" */ = {
+		D5BE398A2EE87FD0009BF190 /* Build configuration list for PBXNativeTarget "HeroAppAdvancedTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D583EAD42EE18D99009F03D8 /* Debug */,
-				D583EAD52EE18D99009F03D8 /* Release */,
+				D5BE398B2EE87FD0009BF190 /* Debug */,
+				D5BE398C2EE87FD0009BF190 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D583EAD62EE18D99009F03D8 /* Build configuration list for PBXNativeTarget "HeroRandomizerUITests" */ = {
+		D5BE398D2EE87FD0009BF190 /* Build configuration list for PBXNativeTarget "HeroAppAdvancedUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D583EAD72EE18D99009F03D8 /* Debug */,
-				D583EAD82EE18D99009F03D8 /* Release */,
+				D5BE398E2EE87FD0009BF190 /* Debug */,
+				D5BE398F2EE87FD0009BF190 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -594,7 +620,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D59DEF142EE873420039657D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+		D53388AD2EE88F44004EE1A1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		D53388B02EE88F7E004EE1A1 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
 			requirement = {
@@ -605,12 +639,17 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D59DEF2B2EE873800039657D /* Kingfisher */ = {
+		D53388AE2EE88F44004EE1A1 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D59DEF142EE873420039657D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			package = D53388AD2EE88F44004EE1A1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		D53388B12EE88F7E004EE1A1 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D53388B02EE88F7E004EE1A1 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = D583EA9D2EE18D98009F03D8 /* Project object */;
+	rootObject = D5BE39542EE87FCF009BF190 /* Project object */;
 }
